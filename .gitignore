@@ -1,0 +1,46 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Models (too large - downloaded from Dropbox)
+models/
+*.keras
+*.h5
+*.pb
+
+# Streamlit Cache
+.streamlit/secrets.toml
+.streamlit/.streamlitignore
+
+# Data Files
+*.csv
+*.xlsx
+*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training/Testing Scripts (optional)
+tongue-*.py
+configs*.py
+Kappa.py
+mymodels.py
+performance-plot.py
+add_other_class.py
+20240514-3TTM-class.csv
+Windows-A-DSLR-DenseNet121-*
